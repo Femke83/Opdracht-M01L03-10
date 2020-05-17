@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Webpagina Femke </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!-- hier zet je de code in de body tags-->
+    <header class="border-header">
+        <h1 class="title">Welkom!</h1>
+        <h2 class="title2">
+            <i>Een website om te genieten</i>
+        </h2>
+        <nav class="nav_box">
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Wie ben ik</a></li>
+                <li><a href="hobby.html">Hobby's</a></li>
+                <li><a href="reizen.html">Reizen</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main_border">
+        <h3 class="title">Contactformulier</h3>
+        <p><i>Mocht je meer informatie willen hebben over mij, mijn hobby's of de reizen die ik heb gemaakt. Vul
+            onderstaand formulier in, dan neem ik graag contact met u op.</i></p>
+        <form name="contact" method="POST" data-netlify="true" class="form">
+
+            <label>Voornaam: <input type="text" name="name" /></label><br>
+            <br>
+
+            <label>Achernaam: <input type="text" name="name" /></label><br>
+            <br>
+            <label>Geboortedatum: <input type="date" name="name" /></label><br>
+            <br>
+
+
+            <label>Woonplaats: <input type="text" name="name" /></label><br>
+            <br>
+
+            <label>Email: <input type="email" name="email" /></label><br>
+            <br>
+
+            <label>Interesse in: <select id="Reizen" name="Reizen"><br>
+                    <option value="Spanje">Spanje</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Zuid-Amerika">Zuid-Amerika</option>
+                    <option value="Midden-Amerika">Midden-Amerika</option>
+                </select></label><br>
+            <br>
+
+            <label>Opmerking: <br> <textarea name="Opmerking" row="80" cols="50"
+                    style="margin: 0px; width: 353px; height: 77px;"></textarea></label><br><br>
+
+
+            <label><button type="submit">Verzenden</button></label><br>
+
+        </form>
+    </main>
+</body>
+
+</html>
